@@ -1,0 +1,112 @@
+body {
+ 
+    background-image:url("/images/p1.jpg") ;
+    
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    
+    background-size: 100%;    
+    
+    
+
+}
+
+h3 {
+    /* color de texto */
+    color:rgb(2, 46, 19);
+    font-size: 30px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(255, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    border: #fffb00;
+    border-radius: 10%;
+}
+
+
+ol{
+    color: rgb(104, 1, 173);
+    font-size: 50 ;
+    
+}
+
+li{
+   
+    color: rgb(252, 16, 153);
+    font-size: 100%;
+
+}
+
+img {
+   
+    width: 20%;
+    /* bordes redondeados */
+    border-radius: 5px;
+}
+
+/* Para modificar CSS de un elemento en particular HTML, asignamos una clase (class)
+y esa la "llamamos" en el CSS con un punto ( . ) antes del */
+.bouquet3 {
+    width: 300px;
+    border-radius: 5px;
+}
+
+/* Editar div del menú */
+.menu {
+    /* Div flexible para moverse con los elementos dentro de sí */
+    display: flex;
+    /* En columna */
+    flex-direction: column;
+    /* Alinea ítems de forma centrada */
+    align-items: center;
+}
+
+a {
+    color:rgb(51, 51, 51);
+    text-decoration:none;
+    font-size: 16px;
+    /* ANCLAS COMO BOTONES */
+    background-color: #ffd900;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+a linkbonis{
+    
+    
+   
+    padding: 10px 50px 20px;
+
+}
+
+a:hover{
+    background-color: #ff009d;
+    color: white;
+}
+
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container1:hover{
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-flower{
+    width: 25%;
+    margin-right: 30px;
+    margin-left: 500px;
+}
